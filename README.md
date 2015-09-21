@@ -40,7 +40,7 @@ classifier = TitleElementClassifier()
 classifier.build_from_page_resources(my_dataset)
 ```
 
-and the extract elements from pages
+and then extract elements from pages
 
 ```python
 classifier.classify(url=some_url)
